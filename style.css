@@ -1,0 +1,80 @@
+html, body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    display: flex; /* Ativa o modelo flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    height: 100%; /* Ocupa toda a altura da tela */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #EAEAEA; /* Define a cor de fundo */
+}
+
+#calc-bg {
+    background-color: #00012A; /* Cor de fundo da calculadora */
+    width: 600px; /* Largura fixa */
+    height: 600px; /* Altura fixa */
+    border-radius: 10px; /* Borda arredondada */
+    display: flex; /* Usa flexbox */
+    flex-direction: row; /* Organiza em linha */
+    flex-wrap: wrap; /* Permite quebra de linha */
+    justify-content: space-between; /* Espaçamento uniforme */
+    user-select: none; /* Impede seleção de texto */
+}
+
+#calc-dysplay {
+    background-color: #D4D4D4; /* Fundo do visor */
+    width: 550px; /* Largura do visor */
+    height: 120px; /* Altura do visor */
+    border-radius: 10px; /* Borda arredondada */
+    margin-top: 25px; /* Espaço superior */
+    margin-left: 25px; /* Espaço à esquerda */
+    display: flex; /* Usa flexbox */
+    justify-content: right; /* Alinha texto à direita */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+#start-column {
+    margin-left: 25px; /* Espaço à esquerda */
+}
+
+.columns {
+    display: flex; /* Usa flexbox */
+    flex-direction: column; /* Organiza verticalmente */
+    flex-wrap: wrap; /* Permite quebra de linha */
+    justify-content: space-between; /* Espaçamento uniforme */
+    margin-bottom: 25px; /* Espaço inferior */
+}
+
+#end-column {
+    margin-right: 25px; /* Espaço à direita */
+}
+
+.button-num {
+    background-color: #393E46; /* Cor dos botões */
+    height: 85px; /* Altura fixa */
+    width: 85px; /* Largura fixa */
+    border-radius: 10px; /* Borda arredondada */
+    font-size: 80px; /* Tamanho do texto */
+    color: white; /* Cor do texto */
+    font-family: "DS-Digital", sans-serif; /* Fonte digital */
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centraliza conteúdo */
+    border: none; /* Remove borda padrão */
+}
+
+.button-num span {
+    font-size: 80px; /* Ajusta tamanho do ícone */
+}
+
+#result {
+    margin: 0; /* Remove margens */
+    font-size: 80px; /* Tamanho do texto do visor */
+    letter-spacing: -2px; /* Reduz espaço entre caracteres */
+}
+
+button, input {
+    outline: none; /* Remove borda de foco padrão */
+}
+
+*:focus {
+    outline: none; /* Impede destaque ao focar elementos */
+}
