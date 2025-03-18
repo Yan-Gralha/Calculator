@@ -1,6 +1,6 @@
 
 function insertNumber(num) {
-    if (result.innerHTML.length < 13) { // Limite de 13 caracteres
+    if (result.innerHTML.length < 13) { //Limite de 13 caracteres
         result.innerHTML += num; //Adiciona os números clicados a variável result, mostrando eles na tela
     }
 };
