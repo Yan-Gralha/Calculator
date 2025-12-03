@@ -1,80 +1,80 @@
 html, body {
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove preenchimento padrão */
-    display: flex; /* Ativa o modelo flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    height: 100%; /* Ocupa toda a altura da tela */
-    align-items: center; /* Centraliza verticalmente */
-    background-color: #EAEAEA; /* Define a cor de fundo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background-color: #EAEAEA;
 }
 
 #calc-bg {
-    background-color: #00012A; /* Cor de fundo da calculadora */
-    width: 600px; /* Largura fixa */
-    height: 600px; /* Altura fixa */
-    border-radius: 10px; /* Borda arredondada */
-    display: flex; /* Usa flexbox */
-    flex-direction: row; /* Organiza em linha */
-    flex-wrap: wrap; /* Permite quebra de linha */
-    justify-content: space-between; /* Espaçamento uniforme */
-    user-select: none; /* Impede seleção de texto */
+    background-color: #00012A;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    user-select: none;
 }
 
 #calc-dysplay {
-    background-color: #D4D4D4; /* Fundo do visor */
-    width: 550px; /* Largura do visor */
-    height: 120px; /* Altura do visor */
-    border-radius: 10px; /* Borda arredondada */
-    margin-top: 25px; /* Espaço superior */
-    margin-left: 25px; /* Espaço à esquerda */
-    display: flex; /* Usa flexbox */
-    justify-content: right; /* Alinha texto à direita */
-    align-items: center; /* Centraliza verticalmente */
+    background-color: #D4D4D4;
+    width: 550px;
+    height: 120px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 #start-column {
-    margin-left: 25px; /* Espaço à esquerda */
+    margin-left: 25px;
 }
 
 .columns {
-    display: flex; /* Usa flexbox */
-    flex-direction: column; /* Organiza verticalmente */
-    flex-wrap: wrap; /* Permite quebra de linha */
-    justify-content: space-between; /* Espaçamento uniforme */
-    margin-bottom: 25px; /* Espaço inferior */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 #end-column {
-    margin-right: 25px; /* Espaço à direita */
+    margin-right: 25px;
 }
 
 .button-num {
-    background-color: #393E46; /* Cor dos botões */
-    height: 85px; /* Altura fixa */
-    width: 85px; /* Largura fixa */
-    border-radius: 10px; /* Borda arredondada */
-    font-size: 80px; /* Tamanho do texto */
-    color: white; /* Cor do texto */
-    font-family: "DS-Digital", sans-serif; /* Fonte digital */
-    display: flex; /* Usa flexbox */
-    justify-content: center; /* Centraliza conteúdo */
-    border: none; /* Remove borda padrão */
+    background-color: #393E46;
+    height: 85px;
+    width: 85px;
+    border-radius: 10px;
+    font-size: 80px;
+    color: white;
+    font-family: "DS-Digital", sans-serif;
+    display: flex;
+    justify-content: center;
+    border: none;
 }
 
 .button-num span {
-    font-size: 80px; /* Ajusta tamanho do ícone */
+    font-size: 80px;
 }
 
 #result {
-    margin: 0; /* Remove margens */
-    font-size: 80px; /* Tamanho do texto do visor */
-    letter-spacing: -2px; /* Reduz espaço entre caracteres */
+    margin: 0;
+    font-size: 80px;
+    letter-spacing: -2px;
 }
 
 button, input {
-    outline: none; /* Remove borda de foco padrão */
+    outline: none;
 }
 
 *:focus {
-    outline: none; /* Impede destaque ao focar elementos */
+    outline: none;
 }
